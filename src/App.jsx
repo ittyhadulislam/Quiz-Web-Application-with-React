@@ -1,10 +1,14 @@
+import "../src/assets/styles/globalCss/App.css"
+import Layout from "./components/layout/Layout"
+import Home from "./components/pages/Home"
+
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Hello</h1>
-      </div>
+      <Layout>
+        <Home />
+      </Layout>
     </>
   )
 }
